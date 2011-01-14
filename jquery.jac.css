@@ -1,0 +1,47 @@
+﻿/*
+ * Just Another Carousel v1.0
+ * http://intrepidstudios.com/projects/jquery-just-another-carousel/
+ *
+ * Copyright (c) 2009 Kamran Ayub
+ * Licensed under the GPL license.
+ * http://intrepidstudios.com/projects/jquery-just-another-carousel/#license
+ *
+ * Last Modified: Feb 2, 2009
+ * This file is part of Just Another Carousel.
+
+    Just Another Carousel is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    Just Another Carousel is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with Just Another Carousel.  If not, see <http://www.gnu.org/licenses/>.
+*/
+.jac
+{
+	height:200px; /* default height */
+	position:relative;
+	margin:0 0 1em 0;
+}
+
+.jac .carousel 
+{
+	position:absolute;
+	top:0;
+	left:0;
+	margin:0;
+	padding:0;
+	list-style-type:none;
+}
+.jac .arrow-left, .jac .arrow-right {
+	float:left;
+}
+.jac .carousel .jac-content
+{
+	float:left;
+}
